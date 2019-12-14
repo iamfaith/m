@@ -299,6 +299,7 @@ $(function() {
                 if (t === 'timeout') {
                   err = '(°ー°〃) 请求超时了，请稍后重试';
                 }
+                console.log(e, t)
                 $('#j-input')
                   .closest('.am-form-group')
                   .find('.am-alert')
